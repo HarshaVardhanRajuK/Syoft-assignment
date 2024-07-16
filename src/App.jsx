@@ -11,7 +11,7 @@ import "./App.css";
 function App() {
   return (
       <><Navbar />
-    <main className="min-h-[100vh] flex flex-col justify-center md:justify-normal bg-slate-800 md:bg-[#F1FAFF]">
+    <main className="min-h-[92vh] flex flex-col justify-center md:justify-normal bg-slate-800 md:bg-[#F1FAFF]">
       <div className="flex md:flex-row flex-col">
         <Routes>
           <Route path="/" element={<AuthSection />}>
